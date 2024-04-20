@@ -20,7 +20,7 @@ if not isfile("SunSet.Pub") then
     makefolder("SunSet.Pub")
  end
  
- local menu = game:GetObjects("rbxassetid://17228638827")[1] 
+ local menu = game:GetObjects("rbxassetid://17229731680")[1] 
  local tabholder = menu.bg.bg.bg.bg.bg.bg.main.group;
  local tabviewer = menu.bg.bg.bg.bg.bg.bg.tabbuttons;
  for _, obj in pairs(menu:GetDescendants()) do
